@@ -18,7 +18,7 @@ function App() {
       msg: msg,
       type: type
     })
-    setTimeout(()=>{setalert(null)},200)
+    setTimeout(()=>{setalert(null)},2000)
 
   }
   return (

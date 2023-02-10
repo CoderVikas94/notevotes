@@ -12,7 +12,7 @@ const Signup = ({showAlert}) => {
     e.preventDefault();
 const {name,email,password} = credentials
 
-    const response = await fetch("https://notevotes-codervikas94.vercel.app/api/auth/createuser", {
+    const response = await fetch("https://notevotes.vercel.app/api/auth/createuser", {
             method: 'POST',
            headers: {
               'Content-Type': 'application/json'

@@ -3,7 +3,7 @@ import NoteContext from "./noteContext";
 
 const NoteState = (props)=> {
   
-  const host = "http://localhost:5000";
+  const host = "https://notevotes-codervikas94.vercel.app/:5000";
 
    const [notes, setNotes] = useState([]) 
 

@@ -9,7 +9,7 @@ const Login = ({showAlert}) => {
 
     const handleSubmit = async(e)=>{
         e.preventDefault();
-        const response = await fetch("https://notevotes.vercel.app/api/auth/login", {
+        const response = await fetch("https://todos-y3lq.onrender.com/api/auth/login", {
             method: 'POST',
            headers: {
               'Content-Type': 'application/json'
